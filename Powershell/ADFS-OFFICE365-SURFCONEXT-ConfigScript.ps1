@@ -65,7 +65,7 @@ Install-windowsfeature adfs-federation –IncludeManagementTools
 
 
 ########################################### RUN AND FINISH THE AAD CONNECT TOOL BEFORE YOU CONTINUE ###########################################
-########################################### GET THE AAD CONNECT MANUAL FROM THIS LINK: https://wiki.surfnet.nl/download/attachments/57199968/AAD%20Connect%20setup%20guide.pdf?version=1&modificationDate=1499787026071&api=v2 ###########################################
+########################################### GET THE AAD CONNECT MANUAL FROM THIS LINK: https://wiki.surfnet.nl/download/attachments/57199968/AAD%20Connect%20setup%20guide.pdf ###########################################
 
 
 ########################################### Create ADFS Claim Descriptions ###########################################
@@ -99,7 +99,7 @@ Add-ADFSClaimDescription -Name ImmutableID -ClaimType ImmutableID -ShortName Imm
 $RelyingPartyTrustName = "SURFconext"
 $MetaDataURL = "https://engine.surfconext.nl/authentication/sp/metadata"
 $ClaimIssuanceFile = "C:\ClaimIssuanceRules.txt"
-#### GET THE CLAIMISSUANCEFILE FROM: https://wiki.surfnet.nl/download/attachments/57199968/ClaimIssuanceRules.txt?version=1&modificationDate=1499850802304&api=v2 ####
+#### GET THE CLAIMISSUANCEFILE FROM: https://wiki.surfnet.nl/download/attachments/57199968/ClaimIssuanceRules.txt ####
 $ACPName = "Permit everyone"
 
 Add-ADFSRelyingPartyTrust -Name $RelyingPartyTrustName -MetadataUrl $MetaDataURL -IssuanceTransformRulesFile $ClaimIssuanceFile -AutoUpdateEnabled:$true -MonitoringEnabled:$true -AccessControlPolicyName $ACPName

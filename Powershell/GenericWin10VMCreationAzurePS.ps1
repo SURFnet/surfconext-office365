@@ -23,7 +23,7 @@
 ################################################################################################################################################
 
 ################################################## CREATE WINDOWS 10 ENTERPRISE CLIENT FROM VHD ##################################################
-############### CHECK VHD PREPARATION STEPS ON: https://wiki.surfnet.nl/download/attachments/60686794/Prepare%20your%20VHD%20for%20Windows%2010.pdf?version=1&modificationDate=1499879640551&api=v2 ################
+############### CHECK VHD PREPARATION STEPS ON: https://wiki.surfnet.nl/download/attachments/60686794/Prepare%20your%20VHD%20for%20Windows%2010.pdf ################
 
 $Environment = "AzureCloud"
 $TenantId = "ADD YOUR TENANTID"
