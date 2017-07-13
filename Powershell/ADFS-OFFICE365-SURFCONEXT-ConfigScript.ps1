@@ -65,7 +65,7 @@ Install-windowsfeature adfs-federation –IncludeManagementTools
 
 
 ########################################### RUN AND FINISH THE AAD CONNECT TOOL BEFORE YOU CONTINUE ###########################################
-########################################### GET THE AAD CONNECT MANUAL FROM THIS LINK: https://wiki.surfnet.nl/....... ###########################################
+########################################### GET THE AAD CONNECT MANUAL FROM THIS LINK: https://wiki.surfnet.nl/download/attachments/57199968/AAD%20Connect%20setup%20guide.pdf?version=1&modificationDate=1499787026071&api=v2 ###########################################
 
 
 ########################################### Create ADFS Claim Descriptions ###########################################
